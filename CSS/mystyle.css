@@ -38,16 +38,14 @@ body {
   text-align: center;
   }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  height: 60px;
-  width: 100%;
-}
 .footer{
   background-color: lightblue;
   opacity: 50%;
   text-align: center;
   color: white;
   height: 100px;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
 }
