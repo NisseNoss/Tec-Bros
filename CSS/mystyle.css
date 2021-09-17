@@ -22,7 +22,7 @@ body {
   grid-template-rows: 1fr;
 
   grid-template-areas: 
-  ". fuck helpdesk ."
+  "fuck fuck helpdesk helpdesk"
   ;
 }
 
