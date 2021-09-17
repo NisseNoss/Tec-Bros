@@ -6,6 +6,10 @@
     font-size: 1em;
 }
 
+body {
+  background-image: url("windows xp wallpaper.jpg");
+}
+
 .header {
   color: red;
 }
