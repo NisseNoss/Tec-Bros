@@ -25,10 +25,12 @@
 
 .FAQ {
   grid-area: fuck;
+  text-align: center;
 }
 
 .helpdesk {
   grid-area: helpdesk;
+  text-align: center;
 }
 
 
