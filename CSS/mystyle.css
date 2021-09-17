@@ -10,20 +10,20 @@
   color: red;
 }
 
-.grid {
+.grid-index {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 
   grid-template-areas: 
-  ". FAQ helpdesk ."
-  ". FAQ helpdesk ."
-  ". FAQ helpdesk ."
+  ". fuck helpdesk ."
+  ". fuck helpdesk ."
+  ". fuck helpdesk ."
   ;
 }
 
 .FAQ {
-  grid-area: FAQ;
+  grid-area: fuck;
 }
 
 .helpdesk {
