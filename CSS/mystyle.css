@@ -4,13 +4,15 @@
     text-decoration: none;
     font-family: 'Vollkorn', Arial, serif;
     font-size: 1em;
-    background-image: url("../geometry_pattern.jpg");
-
   }
 
 
 .header {
   color: red;
+}
+
+body {
+  background-image: url("../geometry_pattern.jpg");
 }
 
 .grid-index {
