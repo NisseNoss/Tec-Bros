@@ -17,6 +17,7 @@ body {
 
 .grid-index {
   display: grid;
+  padding: 50vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 
