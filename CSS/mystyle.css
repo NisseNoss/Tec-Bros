@@ -17,7 +17,7 @@ body {
 
 .grid-index {
   display: grid;
-  min-height: 86vh;
+  min-height: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 
