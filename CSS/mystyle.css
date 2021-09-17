@@ -40,7 +40,8 @@ body {
 
 
 .footer{
-  background-color: black;
+  background-color: grey;
+  opacity: 50%;
   text-align: center;
   color: white;
   height: 100px;
