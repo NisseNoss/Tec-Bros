@@ -9,13 +9,6 @@ body {
   font-family: 'Gemunu Libre', sans-serif;
 }
 
-.bg-image {
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .grid-index {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
