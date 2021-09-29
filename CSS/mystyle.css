@@ -1,50 +1,77 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    font-family: 'Vollkorn', Arial, serif;
-    font-size: 1em;
-  }
-
-
-.header {
-  color: red;
+body {  
+  background-position: center;
+  background: linear-gradient(90deg, #e96b6b 50%, #ec9b31 50%);
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Vollkorn', Arial, serif;
+  font-size: 2em;
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
-body {
-  background-image: url("../fjord.jpg");
-  filter: blur(4px);
+.bg-image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-index {
   display: grid;
-  padding: 50vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 10vh 80vh 10vh;
 
-  grid-template-areas: 
-  "fuck fuck helpdesk helpdesk"
+  grid-template-areas:
+  "header header header header" 
+  "FAQ FAQ helpdesk helpdesk"
+  "footer footer footer footer"
   ;
 }
 
-.FAQ {
-  grid-area: fuck;
+.header {
+  background-color: rgba(255, 255, 255, 0.7);
+  grid-area: header;
   text-align: center;
+}
+
+.FAQ {
+  grid-area: FAQ;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.FAQ:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .helpdesk {
   grid-area: helpdesk;
   text-align: center;
-  }
+  transition: 0.7s;
+}
+
+.helpdesk:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
 
 .footer{
-  background-color: lightgreen;
-  opacity: 40%;
+  background-color: rgba(255, 255, 255, 0.7);
+  grid-area: footer;
   text-align: center;
+}
+
+.links {
+  padding: 25%;
+}
+
+a{
   color: black;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  height: 60px;
-  width: 100%;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: 'Gemunu Libre', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  opacity: 100%;
 }
