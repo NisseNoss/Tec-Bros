@@ -13,7 +13,6 @@
 
 body {
   background-image: url("../fjord.jpg");
-  filter: blur(4px);
 }
 
 .grid-index {
