@@ -1,6 +1,6 @@
 body {  
   background-position: center;
-  background: linear-gradient(90deg, #e96b6b 50%, #ec9b31 50%);
+  background: linear-gradient(90deg, #12344d 50%, #ec9b31 50%);
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -17,6 +17,18 @@ body {
   grid-template-areas:
   "header header header header" 
   "FAQ FAQ helpdesk helpdesk"
+  "footer footer footer footer"
+  ;
+}
+
+.grid-faq  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10vh 80vh 10vh;
+
+  grid-template-areas:
+  "header header header header" 
+  "FAQ FAQ FAQ FAQ"
   "footer footer footer footer"
   ;
 }
