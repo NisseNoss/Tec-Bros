@@ -1,0 +1,146 @@
+$light: #f7eade;
+$accent-light: #a69cac;
+$accent: #474973;
+$accent-dark: #161b33;
+$dark: #0d0c1d; // Deep navy blue
+
+$card-width: 15em;
+body {  
+  background-position: center;
+  background: #12344d;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Vollkorn', Arial, serif;
+  font-size: 2em;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.grid-index {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10vh 80vh 10vh;
+
+  grid-template-areas:
+  "header header header header" 
+  "FAQ FAQ helpdesk helpdesk"
+  "footer footer footer footer"
+  ;
+}
+
+.grid-faq  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10vh 90vh;
+
+  grid-template-areas:
+  "header header header header" 
+  "FAQ FAQ FAQ FAQ"
+  ;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.7);
+  grid-area: header;
+  text-align: center;
+}
+
+.FAQ {
+  grid-area: FAQ;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.FAQ:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.helpdesk {
+  grid-area: helpdesk;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.helpdesk:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.footer{
+  background-color: rgba(255, 255, 255, 0.7);
+  grid-area: footer;
+  text-align: center;
+}
+
+.links {
+  padding: 25%;
+}
+
+a{
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: 'Gemunu Libre', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  opacity: 100%;
+}
+
+#FAQ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem;
+  text-align: center;
+
+  h3
+  {
+      position: relative; // Relative makes the shadow on top of the next element
+      background: $accent;
+      padding: 1rem;
+      margin: 0 auto;
+      opacity: 0;
+      max-width: max-content;
+      border-radius: .5rem;
+      box-shadow: $dark 0 0 2rem;
+      user-select: none;
+      cursor: pointer;
+      transition: 300ms ease;
+  
+      &::before
+      {
+          content: "Q: ";
+          font-weight: 100;
+          color: $accent-light;
+          font-size: 1.5rem;
+      }
+  }
+
+  p
+  {
+    position: relative;
+    background: $accent-dark;
+    padding: 1rem;
+    margin: 0 auto;
+    width: max-content; //makes the background net extend more than the text
+    z-index: -1;
+    opacity: 0;
+    border-radius: 0 0 1rem 1rem;
+    transform: translateY(-100%);
+    transition: .3s ease;
+
+    &::before
+    {
+      content: "A: ";
+      font-weight: 100;
+      color: $accent;
+      font-size: 1.5rem;
+    }
+  }
+  a
+  {
+    color: $accent;
+  }
+}

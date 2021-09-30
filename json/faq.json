@@ -1,0 +1,11 @@
+[
+    {
+        "question": "What is GitHub Education and how do I get it?",
+        "answer" : "GitHub Education is a program meant for students that gives you various benefits like GitHub Pro, free domains, various software licences and more. Apply at <a href=\"https://education.github.com\" target=\"_blank\">education.github.com</a>."
+    },
+
+    {
+        "question": "Where should I look for help if I encounter a problem?",
+        "answer" : "If you encounter a problem, we would recommend doing a quick Google search. For more resources, check <b>external resources</b>. If you still have issues, contact us by clicking the <b>Contact Us</b> button."
+    }
+]

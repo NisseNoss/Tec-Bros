@@ -1,4 +1,4 @@
-body {  
+body {
   background-position: center;
   background: #12344d;
   padding: 0;
@@ -10,38 +10,41 @@ body {
 }
 
 .grid-index {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10vh 80vh 10vh;
-
-  grid-template-areas:
-  "header header header header" 
-  "FAQ FAQ helpdesk helpdesk"
-  "footer footer footer footer"
-  ;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 10vh 80vh 10vh;
+      grid-template-rows: 10vh 80vh 10vh;
+      grid-template-areas: "header header header header"  "FAQ FAQ helpdesk helpdesk" "footer footer footer footer";
 }
 
-.grid-faq  {
+.grid-faq {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10vh 80vh 10vh;
-
-  grid-template-areas:
-  "header header header header" 
-  "FAQ FAQ FAQ FAQ"
-  "footer footer footer footer"
-  ;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 10vh 90vh;
+      grid-template-rows: 10vh 90vh;
+      grid-template-areas: "header header header header"  "FAQ FAQ FAQ FAQ";
 }
 
 .header {
   background-color: rgba(255, 255, 255, 0.7);
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   grid-area: header;
   text-align: center;
 }
 
 .FAQ {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   grid-area: FAQ;
   text-align: center;
+  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -50,8 +53,12 @@ body {
 }
 
 .helpdesk {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
   grid-area: helpdesk;
   text-align: center;
+  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -59,8 +66,11 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.footer{
+.footer {
   background-color: rgba(255, 255, 255, 0.7);
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   grid-area: footer;
   text-align: center;
 }
@@ -69,7 +79,7 @@ body {
   padding: 25%;
 }
 
-a{
+a {
   color: black;
   font-size: 2em;
   text-decoration: none;
@@ -80,3 +90,76 @@ a{
 p {
   opacity: 100%;
 }
+
+#FAQ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+  padding: 5rem;
+  text-align: center;
+}
+
+#FAQ h3 {
+  position: relative;
+  background: #474973;
+  padding: 1rem;
+  margin: 0 auto;
+  opacity: 0;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  border-radius: .5rem;
+  -webkit-box-shadow: #0d0c1d 0 0 2rem;
+          box-shadow: #0d0c1d 0 0 2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+#FAQ h3::before {
+  content: "Q: ";
+  font-weight: 100;
+  color: #a69cac;
+  font-size: 1.5rem;
+}
+
+#FAQ p {
+  position: relative;
+  background: #161b33;
+  padding: 1rem;
+  margin: 0 auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  z-index: -1;
+  opacity: 0;
+  border-radius: 0 0 1rem 1rem;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+#FAQ p::before {
+  content: "A: ";
+  font-weight: 100;
+  color: #474973;
+  font-size: 1.5rem;
+}
+
+#FAQ a {
+  color: #474973;
+}
+/*# sourceMappingURL=mystyle.css.map */
