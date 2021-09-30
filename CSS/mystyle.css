@@ -5,8 +5,8 @@ body {
   margin: 0;
   text-decoration: none;
   font-family: 'Vollkorn', Arial, serif;
-  font-size: 2em;
   font-family: 'Gemunu Libre', sans-serif;
+  color: #f7eade;
 }
 
 .grid-index {
@@ -24,8 +24,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 10vh 90vh;
-      grid-template-rows: 10vh 90vh;
+  -ms-grid-rows: 10vh  90vh;
+      grid-template-rows: 10vh  90vh;
       grid-template-areas: "header header header header"  "FAQ FAQ FAQ FAQ";
 }
 
@@ -79,7 +79,7 @@ body {
   padding: 25%;
 }
 
-a {
+.links a {
   color: black;
   font-size: 2em;
   text-decoration: none;
@@ -92,6 +92,10 @@ p {
 }
 
 #FAQ {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: FAQ;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,6 +130,7 @@ p {
   cursor: pointer;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
+  font-size: 1.5rem;
 }
 
 #FAQ h3::before {
@@ -161,5 +166,6 @@ p {
 
 #FAQ a {
   color: #474973;
+  font-size: 1.5em;
 }
 /*# sourceMappingURL=mystyle.css.map */

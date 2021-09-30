@@ -12,8 +12,8 @@ body {
   margin: 0;
   text-decoration: none;
   font-family: 'Vollkorn', Arial, serif;
-  font-size: 2em;
   font-family: 'Gemunu Libre', sans-serif;
+  color: $light;
 }
 
 .grid-index {
@@ -31,7 +31,10 @@ body {
 .grid-faq  {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10vh 90vh;
+  grid-template-rows: 
+  10vh 
+  90vh
+  ;
 
   grid-template-areas:
   "header header header header" 
@@ -73,21 +76,23 @@ body {
 
 .links {
   padding: 25%;
-}
 
-a{
-  color: black;
-  font-size: 2em;
-  text-decoration: none;
-  font-family: 'Gemunu Libre', sans-serif;
-  font-weight: 600;
+  a
+  {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 600;
+  }
 }
 
 p {
   opacity: 100%;
 }
 
-#FAQ {
+#FAQ { // shamelessly stolen from https://help.yessness.com/faq/
+  grid-area: FAQ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,6 +113,7 @@ p {
       user-select: none;
       cursor: pointer;
       transition: 300ms ease;
+      font-size: 1.5rem;
   
       &::before
       {
@@ -142,5 +148,6 @@ p {
   a
   {
     color: $accent;
+    font-size: 1.5em;
   }
 }
