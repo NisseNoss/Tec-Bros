@@ -15,9 +15,9 @@ body {
 
 .grid-faq {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 15vh auto;
-  grid-template-areas: "header header header header header" "menu FAQ FAQ FAQ FAQ";
+  grid-template-areas: "header header header header header header header" "menu FAQ FAQ FAQ FAQ FAQ FAQ";
 }
 
 .header {
@@ -97,6 +97,21 @@ p {
   gap: 1rem;
   background: #FFFFFF;
   border-top: 3px solid #0e0e6c;
+  padding: 2rem;
+  text-align: center;
+}
+#menu a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: black;
+}
+#menu a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+#menu a:active {
+  color: #d53980;
 }
 
 #FAQ {
@@ -116,7 +131,7 @@ p {
   opacity: 0;
   max-width: max-content;
   border-radius: 0.5rem;
-  box-shadow: #0d0c1d 0 0 2rem;
+  box-shadow: #0d0c1d 0 0 1rem;
   user-select: none;
   cursor: pointer;
   transition: 300ms ease;
