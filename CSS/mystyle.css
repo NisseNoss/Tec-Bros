@@ -24,8 +24,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 10vh  90vh;
-      grid-template-rows: 10vh  90vh;
+  -ms-grid-rows: 15vh  85vh;
+      grid-template-rows: 15vh  85vh;
       grid-template-areas: "header header header header"  "FAQ FAQ FAQ FAQ";
 }
 
