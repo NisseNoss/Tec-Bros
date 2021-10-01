@@ -11,12 +11,19 @@ $accent: #474973;
 $accent-dark: #161b33;
 $dark: #0d0c1d; // Deep navy blue
 
+$background: #EBEFF3;
+$accent-mint: #dbffd0;
+$accent-hover: #CDEBC4;
+$questions-color: #0e0e6c;
+$answer-color: #1f0b52;
+
+
 //#145786
 //#12344d
 
 $card-width: 15em;
 body {
-  background: #EBEFF3 center;
+  background: $background center;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -52,7 +59,7 @@ body {
 
 .header {
   padding: 1em;
-  background-color: #dbffd0;
+  background-color: $accent-mint;
   grid-area: header;
   text-align: center;
   font-size: 2em;
@@ -68,7 +75,7 @@ body {
 }
 
 .FAQ:hover {
-  background: rgba(#CDEBC4, 0.5);
+  background: rgba($accent-hover, 0.5);
 }
 
 .helpdesk {
@@ -78,7 +85,7 @@ body {
 }
 
 .helpdesk:hover {
-  background: rgba(#CDEBC4, 0.5);
+  background: rgba($accent-hover, 0.5);
 }
 
 .freshdesk {
@@ -88,7 +95,7 @@ body {
 }
 
 .freshdesk:hover {
-  background: rgba(#CDEBC4, 0.5 );
+  background: rgba($accent-hover, 0.5 );
 }
 
 .main {
@@ -99,7 +106,7 @@ body {
 }
 
 .footer{
-  background-color: #dbffd0;
+  background-color: $accent-mint;
   grid-area: footer;
   text-align: center;
   font-size: 2em
@@ -121,11 +128,15 @@ body {
 p {
   opacity: 100%;
 }
-
+// TODO: make the menu look good
 #menu
 {
   grid-area: menu;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   background: #FFFFFF;
+  border-top: 3px solid $questions-color;
 
 }
 
@@ -141,7 +152,7 @@ p {
   h3
   {
       position: relative; // Relative makes the shadow on top of the next element
-      background: #0e0e6c;
+      background: $questions-color;
       padding: 1rem;
       margin: 0 auto;
       opacity: 0;
@@ -166,7 +177,7 @@ p {
   p
   {
     position: relative;
-    background: #1f0b52;
+    background: $answer-color;
     padding: 1rem;
     margin: 0 auto;
     width: max-content; //makes the background net extend more than the text

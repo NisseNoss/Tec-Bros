@@ -92,7 +92,11 @@ p {
 
 #menu {
   grid-area: menu;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   background: #FFFFFF;
+  border-top: 3px solid #0e0e6c;
 }
 
 #FAQ {
