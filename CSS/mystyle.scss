@@ -1,3 +1,10 @@
+//#12344D
+//#CDEBC4
+//#0E2A3E
+//#EBEFF3
+//#74828D
+//#38556A
+
 $light: #f7eade;
 $accent-light: #a69cac;
 $accent: #474973;
@@ -10,7 +17,7 @@ $dark: #0d0c1d; // Deep navy blue
 $card-width: 15em;
 body {  
   background-position: center;
-  background: #ee162b;
+  background: #EBEFF3;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -47,11 +54,13 @@ body {
 
 .header {
   padding: 1em;
-  background-color: #be0a25;
+  background-color: #f0f6ff;
   grid-area: header;
   text-align: center;
   font-size: 2em;
   transition: 0.7s;
+  color: black;
+  box-shadow: $dark 0 0 2rem;
 }
 
 .FAQ {
@@ -120,7 +129,7 @@ p {
   h3
   {
       position: relative; // Relative makes the shadow on top of the next element
-      background: #111D4A;
+      background: #38556A;
       padding: 1rem;
       margin: 0 auto;
       opacity: 0;
@@ -144,7 +153,7 @@ p {
   p
   {
     position: relative;
-    background: #0F1943;
+    background: #0F1943 ;
     padding: 1rem;
     margin: 0 auto;
     width: max-content; //makes the background net extend more than the text

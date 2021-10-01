@@ -1,6 +1,6 @@
 body {
   background-position: center;
-  background: #ee162b;
+  background: #EBEFF3;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -31,7 +31,7 @@ body {
 
 .header {
   padding: 1em;
-  background-color: #be0a25;
+  background-color: #f0f6ff;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
@@ -40,14 +40,9 @@ body {
   font-size: 2em;
   -webkit-transition: 0.7s;
   transition: 0.7s;
-}
-
-.header a {
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  font-family: 'Gemunu Libre', sans-serif;
-  font-weight: 600;
+  color: black;
+  -webkit-box-shadow: #0d0c1d 0 0 2rem;
+          box-shadow: #0d0c1d 0 0 2rem;
 }
 
 .FAQ {
@@ -140,7 +135,7 @@ p {
 
 #FAQ h3 {
   position: relative;
-  background: #111D4A;
+  background: #38556A;
   padding: 1rem;
   margin: 0 auto;
   opacity: 0;
