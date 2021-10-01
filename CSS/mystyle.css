@@ -1,79 +1,40 @@
 body {
   background-position: center;
-<<<<<<< Updated upstream
   background: #EBEFF3;
-=======
-  background: #3587A4;
->>>>>>> Stashed changes
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Vollkorn', Arial, serif;
-  font-family: 'Gemunu Libre', sans-serif;
-<<<<<<< HEAD
-  color: #f7eade;
-  overflow: hidden;
-=======
->>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
+  font-family: "Vollkorn", Arial, serif;
 }
 
 .grid-index {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 100px 300px 1fr 100px;
-      grid-template-rows: 100px 300px 1fr 100px;
-      grid-template-areas: "header header header"  "FAQ helpdesk freshdesk" "main main main" "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 300px 1fr 100px;
+  grid-template-areas: "header header header" "FAQ helpdesk freshdesk" "main main main" "footer footer footer";
 }
 
 .grid-faq {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 15vh  85vh;
-      grid-template-rows: 15vh  85vh;
-      grid-template-areas: "header header header header header"  "menu FAQ FAQ FAQ FAQ";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 15vh 85vh;
+  grid-template-areas: "header header header header header" "menu FAQ FAQ FAQ FAQ";
 }
 
 .header {
-  color: black;
   padding: 1em;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  background-color: #f0f6ff;
-=======
-  background-color: #f0f6f0;
->>>>>>> Stashed changes
-=======
   background-color: #dbffd0;
->>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
   grid-area: header;
   text-align: center;
-  font-size: 2.5em;
-  -webkit-transition: 0.7s;
+  font-size: 2em;
   transition: 0.7s;
-<<<<<<< Updated upstream
   color: black;
-  -webkit-box-shadow: #0d0c1d 0 0 2rem;
-          box-shadow: #0d0c1d 0 0 2rem;
-=======
-  -webkit-box-shadow: #0d0c1d 0 0 2em;
-          box-shadow: #0d0c1d 0 0 2em;
->>>>>>> Stashed changes
+  box-shadow: #0d0c1d 0 0 2rem;
 }
 
 .FAQ {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 4;
   grid-area: FAQ;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -82,11 +43,8 @@ body {
 }
 
 .helpdesk {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: helpdesk;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -95,11 +53,8 @@ body {
 }
 
 .freshdesk {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
   grid-area: freshdesk;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -108,56 +63,27 @@ body {
 }
 
 .main {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-area: main;
   text-align: center;
   color: black;
   font-size: 2em;
 }
 
-<<<<<<< Updated upstream
 .footer {
   background-color: #dbffd0;
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-=======
-.main {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: main;
-  text-align: center;
-  font-size: 3em;
-}
-
-.footer {
-  color: #fff;
-  background-color: #7BB3CA;
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
->>>>>>> Stashed changes
   grid-area: footer;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .links {
   padding: 25%;
 }
-
 .links a {
-<<<<<<< Updated upstream
   color: black;
-=======
-  color: #C1DFF0;
->>>>>>> Stashed changes
   font-size: 3em;
   text-decoration: none;
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
   font-weight: 600;
 }
 
@@ -166,80 +92,55 @@ p {
 }
 
 #FAQ {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 4;
   grid-area: FAQ;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 3rem;
   padding: 5rem;
   text-align: center;
 }
-
 #FAQ h3 {
   position: relative;
   background: #38556A;
   padding: 1rem;
   margin: 0 auto;
   opacity: 0;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
   max-width: max-content;
-  border-radius: .5rem;
-  -webkit-box-shadow: #0d0c1d 0 0 2rem;
-          box-shadow: #0d0c1d 0 0 2rem;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  border-radius: 0.5rem;
+  box-shadow: #0d0c1d 0 0 2rem;
+  user-select: none;
   cursor: pointer;
-  -webkit-transition: 300ms ease;
   transition: 300ms ease;
   font-size: 1.5rem;
 }
-
 #FAQ h3::before {
   content: "Q: ";
   font-weight: 100;
   color: #a69cac;
   font-size: 1.5rem;
 }
-
 #FAQ p {
   position: relative;
   background: #0F1943;
   padding: 1rem;
   margin: 0 auto;
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
   z-index: -1;
   opacity: 0;
   border-radius: 0 0 1rem 1rem;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  transform: translateY(-100%);
+  transition: 0.3s ease;
 }
-
 #FAQ p::before {
   content: "A: ";
   font-weight: 100;
   color: #a69cac;
   font-size: 1.5rem;
 }
-
 #FAQ a {
   color: #474973;
   font-size: 1.5em;
 }
+
 /*# sourceMappingURL=mystyle.css.map */
