@@ -1,12 +1,17 @@
 body {
   background-position: center;
+<<<<<<< Updated upstream
   background: #EBEFF3;
+=======
+  background: #3587A4;
+>>>>>>> Stashed changes
   padding: 0;
   margin: 0;
   text-decoration: none;
   font-family: 'Vollkorn', Arial, serif;
   font-family: 'Gemunu Libre', sans-serif;
   color: #f7eade;
+  overflow: hidden;
 }
 
 .grid-index {
@@ -30,19 +35,29 @@ body {
 }
 
 .header {
+  color: black;
   padding: 1em;
+<<<<<<< Updated upstream
   background-color: #f0f6ff;
+=======
+  background-color: #f0f6f0;
+>>>>>>> Stashed changes
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: header;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+<<<<<<< Updated upstream
   color: black;
   -webkit-box-shadow: #0d0c1d 0 0 2rem;
           box-shadow: #0d0c1d 0 0 2rem;
+=======
+  -webkit-box-shadow: #0d0c1d 0 0 2em;
+          box-shadow: #0d0c1d 0 0 2em;
+>>>>>>> Stashed changes
 }
 
 .FAQ {
@@ -95,14 +110,32 @@ body {
   font-size: 2em;
 }
 
+<<<<<<< Updated upstream
 .footer {
   background-color: #be0a25;
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
+=======
+.main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: main;
+  text-align: center;
+  font-size: 3em;
+}
+
+.footer {
+  color: #fff;
+  background-color: #7BB3CA;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+>>>>>>> Stashed changes
   grid-area: footer;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .links {
@@ -110,7 +143,11 @@ body {
 }
 
 .links a {
+<<<<<<< Updated upstream
   color: black;
+=======
+  color: #C1DFF0;
+>>>>>>> Stashed changes
   font-size: 3em;
   text-decoration: none;
   font-family: 'Gemunu Libre', sans-serif;
