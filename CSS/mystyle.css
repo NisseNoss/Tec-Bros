@@ -1,6 +1,5 @@
 body {
-  background-position: center;
-  background: #EBEFF3;
+  background: #EBEFF3 center;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -10,7 +9,7 @@ body {
 .grid-index {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 300px 1fr 100px;
+  grid-template-rows: 15vh 65vh 5vh 15vh;
   grid-template-areas: "header header header" "FAQ helpdesk freshdesk" "main main main" "footer footer footer";
 }
 
