@@ -10,8 +10,11 @@ body {
   text-decoration: none;
   font-family: 'Vollkorn', Arial, serif;
   font-family: 'Gemunu Libre', sans-serif;
+<<<<<<< HEAD
   color: #f7eade;
   overflow: hidden;
+=======
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
 }
 
 .grid-index {
@@ -27,24 +30,28 @@ body {
 .grid-faq {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 15vh  85vh;
       grid-template-rows: 15vh  85vh;
-      grid-template-areas: "header header header header"  "FAQ FAQ FAQ FAQ";
+      grid-template-areas: "header header header header header"  "menu FAQ FAQ FAQ FAQ";
 }
 
 .header {
   color: black;
   padding: 1em;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   background-color: #f0f6ff;
 =======
   background-color: #f0f6f0;
 >>>>>>> Stashed changes
+=======
+  background-color: #dbffd0;
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
+  -ms-grid-column-span: 5;
   grid-area: header;
   text-align: center;
   font-size: 2.5em;
@@ -62,7 +69,7 @@ body {
 
 .FAQ {
   -ms-grid-row: 2;
-  -ms-grid-column: 1;
+  -ms-grid-column: 2;
   -ms-grid-column-span: 4;
   grid-area: FAQ;
   text-align: center;
@@ -112,8 +119,13 @@ body {
 
 <<<<<<< Updated upstream
 .footer {
+<<<<<<< Updated upstream
   background-color: #be0a25;
   -ms-grid-row: 4;
+=======
+  background-color: #dbffd0;
+  -ms-grid-row: 3;
+>>>>>>> Stashed changes
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
 =======
@@ -160,7 +172,7 @@ p {
 
 #FAQ {
   -ms-grid-row: 2;
-  -ms-grid-column: 1;
+  -ms-grid-column: 2;
   -ms-grid-column-span: 4;
   grid-area: FAQ;
   display: -webkit-box;

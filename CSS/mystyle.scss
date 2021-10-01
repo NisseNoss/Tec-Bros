@@ -27,8 +27,11 @@ body {
   text-decoration: none;
   font-family: 'Vollkorn', Arial, serif;
   font-family: 'Gemunu Libre', sans-serif;
+<<<<<<< HEAD
   color: $light;
   overflow: hidden;
+=======
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
 }
 
 .grid-index {
@@ -46,26 +49,30 @@ body {
 
 .grid-faq  {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 
   15vh 
   85vh
   ;
 
   grid-template-areas:
-  "header header header header" 
-  "FAQ FAQ FAQ FAQ"
+  "header header header header header" 
+  "menu FAQ FAQ FAQ FAQ"
   ;
 }
 
 .header {
   color: black;
   padding: 1em;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   background-color: #f0f6ff;
 =======
   background-color: #f0f6f0;
 >>>>>>> Stashed changes
+=======
+  background-color: #dbffd0;
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
   grid-area: header;
   text-align: center;
   font-size: 2.5em;
@@ -122,8 +129,12 @@ body {
 }
 
 .footer{
+<<<<<<< HEAD
   color: #fff;
   background-color: #7BB3CA;
+=======
+  background-color: #dbffd0;
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
   grid-area: footer;
   text-align: center;
   font-size: 1.5em
