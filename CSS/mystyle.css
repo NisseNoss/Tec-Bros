@@ -95,13 +95,8 @@ body {
 }
 
 .footer {
-<<<<<<< Updated upstream
-  background-color: #be0a25;
-  -ms-grid-row: 4;
-=======
   background-color: #dbffd0;
-  -ms-grid-row: 3;
->>>>>>> Stashed changes
+  -ms-grid-row: 4;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: footer;
