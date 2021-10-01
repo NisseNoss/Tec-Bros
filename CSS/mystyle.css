@@ -38,6 +38,8 @@ body {
   grid-area: header;
   text-align: center;
   font-size: 2em;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .header a {
