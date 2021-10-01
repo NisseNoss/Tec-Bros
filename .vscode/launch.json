@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "C:/Users/elias/AppData/Local/Microsoft/WindowsApps/python3.9.exe",
+            "python": "C:/Users/$user/AppData/Local/Microsoft/WindowsApps/python3.9.exe",
             "program": "${workspaceRoot}/.vscode/server.py",
             "debugOptions": [
                 "WaitOnAbnormalExit",
