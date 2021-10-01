@@ -17,12 +17,21 @@ $dark: #0d0c1d; // Deep navy blue
 $card-width: 15em;
 body {  
   background-position: center;
+<<<<<<< Updated upstream
   background: #EBEFF3;
+=======
+  background: #3587A4;
+>>>>>>> Stashed changes
   padding: 0;
   margin: 0;
   text-decoration: none;
   font-family: 'Vollkorn', Arial, serif;
   font-family: 'Gemunu Libre', sans-serif;
+<<<<<<< HEAD
+  color: $light;
+  overflow: hidden;
+=======
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
 }
 
 .grid-index {
@@ -53,14 +62,27 @@ body {
 }
 
 .header {
+  color: black;
   padding: 1em;
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+  background-color: #f0f6ff;
+=======
+  background-color: #f0f6f0;
+>>>>>>> Stashed changes
+=======
   background-color: #dbffd0;
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
   grid-area: header;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   transition: 0.7s;
+<<<<<<< Updated upstream
   color: black;
   box-shadow: $dark 0 0 2rem;
+=======
+  box-shadow: $dark 0 0 2em;
+>>>>>>> Stashed changes
 }
 
 .FAQ {
@@ -100,19 +122,34 @@ body {
   font-size: 2em;
 }
 
+.main {
+  grid-area: main;
+  text-align: center;
+  font-size: 3em;
+}
+
 .footer{
+<<<<<<< HEAD
+  color: #fff;
+  background-color: #7BB3CA;
+=======
   background-color: #dbffd0;
+>>>>>>> ab8266c88c1b743ebfd611772a6eebc172fc32c6
   grid-area: footer;
   text-align: center;
-  font-size: 2em
+  font-size: 1.5em
 }
 
 .links {
   padding: 25%;
-
+  
   a
   {
+<<<<<<< Updated upstream
     color: black;
+=======
+    color: #C1DFF0;
+>>>>>>> Stashed changes
     font-size: 3em;
     text-decoration: none;
     font-family: 'Gemunu Libre', sans-serif;
