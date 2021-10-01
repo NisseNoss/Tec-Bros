@@ -23,7 +23,6 @@ body {
   text-decoration: none;
   font-family: 'Vollkorn', Arial, serif;
   font-family: 'Gemunu Libre', sans-serif;
-  color: $light;
 }
 
 .grid-index {
@@ -41,21 +40,21 @@ body {
 
 .grid-faq  {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 
   15vh 
   85vh
   ;
 
   grid-template-areas:
-  "header header header header" 
-  "FAQ FAQ FAQ FAQ"
+  "header header header header header" 
+  "menu FAQ FAQ FAQ FAQ"
   ;
 }
 
 .header {
   padding: 1em;
-  background-color: #f0f6ff;
+  background-color: #dbffd0;
   grid-area: header;
   text-align: center;
   font-size: 2em;
@@ -102,7 +101,7 @@ body {
 }
 
 .footer{
-  background-color: #be0a25;
+  background-color: #dbffd0;
   grid-area: footer;
   text-align: center;
   font-size: 2em
