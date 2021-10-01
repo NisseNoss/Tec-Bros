@@ -16,7 +16,7 @@ body {
 .grid-faq {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 15vh 85vh;
+  grid-template-rows: 15vh auto;
   grid-template-areas: "header header header header header" "menu FAQ FAQ FAQ FAQ";
 }
 
@@ -28,7 +28,7 @@ body {
   font-size: 2em;
   transition: 0.7s;
   color: black;
-  box-shadow: #0d0c1d 0 0 2rem;
+  box-shadow: #0d0c1d 0 0 1.5rem;
 }
 
 .FAQ {
@@ -90,6 +90,11 @@ p {
   opacity: 100%;
 }
 
+#menu {
+  grid-area: menu;
+  background: #FFFFFF;
+}
+
 #FAQ {
   grid-area: FAQ;
   display: flex;
@@ -101,7 +106,7 @@ p {
 }
 #FAQ h3 {
   position: relative;
-  background: #38556A;
+  background: #0e0e6c;
   padding: 1rem;
   margin: 0 auto;
   opacity: 0;
@@ -112,6 +117,7 @@ p {
   cursor: pointer;
   transition: 300ms ease;
   font-size: 1.5rem;
+  color: #FFFFFF;
 }
 #FAQ h3::before {
   content: "Q: ";
@@ -121,7 +127,7 @@ p {
 }
 #FAQ p {
   position: relative;
-  background: #0F1943;
+  background: #1f0b52;
   padding: 1rem;
   margin: 0 auto;
   width: max-content;
@@ -130,6 +136,7 @@ p {
   border-radius: 0 0 1rem 1rem;
   transform: translateY(-100%);
   transition: 0.3s ease;
+  color: #FFFFFF;
 }
 #FAQ p::before {
   content: "A: ";
@@ -138,7 +145,6 @@ p {
   font-size: 1.5rem;
 }
 #FAQ a {
-  color: #474973;
   font-size: 1.5em;
 }
 

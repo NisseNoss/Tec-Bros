@@ -2,6 +2,40 @@
     {
         "question": "Hvorfor virker det ikke?!",
         "answer" : "Har du prøvd å skru den av og på igjen?"
-    }
+    },
 
+    {
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    }
 ]
