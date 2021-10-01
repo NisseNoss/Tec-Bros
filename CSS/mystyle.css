@@ -12,11 +12,11 @@ body {
 .grid-index {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 15vh 70vh 15vh;
       grid-template-rows: 15vh 70vh 15vh;
-      grid-template-areas: "header header header header"  "FAQ FAQ helpdesk helpdesk" "footer footer footer footer";
+      grid-template-areas: "header header header header header header"  "FAQ FAQ helpdesk helpdesk freshdesk freshdesk" "footer footer footer footer footer footer";
 }
 
 .grid-faq {
@@ -50,10 +50,6 @@ body {
   font-weight: 600;
 }
 
-.header:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
 .FAQ {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -82,11 +78,25 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
+.freshdesk {
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-area: freshdesk;
+  text-align: center;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.freshdesk:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .footer {
   background-color: #be0a25;
   -ms-grid-row: 3;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
+  -ms-grid-column-span: 6;
   grid-area: footer;
   text-align: center;
   font-size: 2em;

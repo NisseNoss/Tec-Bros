@@ -21,13 +21,13 @@ body {
 
 .grid-index {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 15vh 70vh 15vh;
 
   grid-template-areas:
-  "header header header header" 
-  "FAQ FAQ helpdesk helpdesk"
-  "footer footer footer footer"
+  "header header header header header header" 
+  "FAQ FAQ helpdesk helpdesk freshdesk freshdesk"
+  "footer footer footer footer footer footer"
   ;
 }
 
@@ -52,19 +52,6 @@ body {
   text-align: center;
   font-size: 2em;
   transition: 0.7s;
-
-  a
-  {
-    color: white;
-    font-size: 1em;
-    text-decoration: none;
-    font-family: 'Gemunu Libre', sans-serif;
-    font-weight: 600;
-  }
-}
-
-.header:hover {
-  background: rgba(255, 255, 255, 0.3);
 }
 
 .FAQ {
@@ -84,6 +71,16 @@ body {
 }
 
 .helpdesk:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.freshdesk {
+  grid-area: freshdesk;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.freshdesk:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
