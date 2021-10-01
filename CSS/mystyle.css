@@ -116,7 +116,7 @@ p {
 
 #FAQ h3 {
   position: relative;
-  background: #474973;
+  background: #111D4A;
   padding: 1rem;
   margin: 0 auto;
   opacity: 0;
@@ -145,7 +145,7 @@ p {
 
 #FAQ p {
   position: relative;
-  background: #161b33;
+  background: #0F1943;
   padding: 1rem;
   margin: 0 auto;
   width: -webkit-max-content;
@@ -163,7 +163,7 @@ p {
 #FAQ p::before {
   content: "A: ";
   font-weight: 100;
-  color: #474973;
+  color: #a69cac;
   font-size: 1.5rem;
 }
 
