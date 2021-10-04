@@ -29,6 +29,7 @@ body {
   transition: 0.7s;
   color: black;
   box-shadow: #0d0c1d 0 0 1.5rem;
+  z-index: 1;
 }
 
 .FAQ {
@@ -92,6 +93,7 @@ p {
 
 #menu {
   grid-area: menu;
+  position: sticky;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -99,6 +101,10 @@ p {
   border-top: 3px solid #0e0e6c;
   padding: 2rem;
   text-align: center;
+  height: 300px;
+  top: 0;
+  box-shadow: #0d0c1d 0 0 1rem;
+  z-index: 0;
 }
 #menu a {
   text-decoration: none;
