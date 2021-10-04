@@ -1,40 +1,84 @@
 [
     {
+        "thing": "html",
         "question": "Hvorfor virker det ikke?!",
         "answer" : "Har du prøvd å skru den av og på igjen?"
     },
 
     {
+        "thing": "html",
         "question": "Dette er en test jeg vet at det er en test",
         "answer" : "Jeg trenger hjelp nå"
     },
 
     {
+        "thing": "html",
         "question": "Dette er en test jeg vet at det er en test",
         "answer" : "Jeg trenger hjelp nå"
     },
 
     {
+        "thing": "html",
         "question": "Dette er en test jeg vet at det er en test",
         "answer" : "Jeg trenger hjelp nå"
     },
 
     {
+        "thing": "html",
         "question": "Dette er en test jeg vet at det er en test",
         "answer" : "Jeg trenger hjelp nå"
     },
 
     {
+        "thing": "html",
         "question": "Dette er en test jeg vet at det er en test",
         "answer" : "Jeg trenger hjelp nå"
     },
 
     {
+        "thing": "html",
         "question": "Dette er en test jeg vet at det er en test",
         "answer" : "Jeg trenger hjelp nå"
     },
 
     {
+        "thing": "html",
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "thing": "css",
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "thing": "css",
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "thing": "css",
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "thing": "css",
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "thing": "css",
+        "question": "Dette er en test jeg vet at det er en test",
+        "answer" : "Jeg trenger hjelp nå"
+    },
+
+    {
+        "thing": "css",
         "question": "Dette er en test jeg vet at det er en test",
         "answer" : "Jeg trenger hjelp nå"
     }

@@ -5,7 +5,7 @@ fetch("../json/faq.json")
         for(const question of data)
         {
             document.querySelector("#FAQ").innerHTML+=`
-                <div>
+                <div id="${question.thing}">
                     <h3>${question.question}</h3>
                     <p>${question.answer}</p>
                 </div>
