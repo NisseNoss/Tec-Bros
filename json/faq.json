@@ -7,14 +7,14 @@
 
     {
         "thing": "html",
-        "question": "Dette er en test jeg vet at det er en test",
-        "answer" : "Jeg trenger hjelp nå"
+        "question": "Hva er HTML (HyperText Markup Language)?",
+        "answer" : "HTML er et formateringsspråk benyttet for å lage hypertekst-dokumenter på World Wide Web. Koder, kalt tagger (engelsk tags), angir funksjonen til en tekst, det vil si om den er en overskrift, et vanlig tekstavsnitt, en tabell, en punktliste eller en lenke til annen tekst. "
     },
 
     {
         "thing": "html",
-        "question": "Dette er en test jeg vet at det er en test",
-        "answer" : "Jeg trenger hjelp nå"
+        "question": "Hvordan linke CSS til HTML?",
+        "answer" : "Du skriver i head-en din &lt;link rel=&quotstylesheet&quot  href=&quothvor/CSS/filen/ligger&quot&gt;"
     },
 
     {
@@ -49,8 +49,8 @@
 
     {
         "thing": "css",
-        "question": "Dette er en test jeg vet at det er en test",
-        "answer" : "Jeg trenger hjelp nå"
+        "question": "Hva er CSS (Cascading Style Sheets)",
+        "answer" : "CSS, format for stilsett for html-dokumenter på internett, standardisert av W3C. Stilsett er en enkel måte å definere stiler på, det vil si layoutegenskaper som skrifttyper, farger og linjeavstander, slik at alle dokumenter fra et gitt nettsted får samme design."
     },
 
     {
